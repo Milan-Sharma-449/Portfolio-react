@@ -3,6 +3,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+.experience__container-skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -20,12 +25,39 @@
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
+.experience__container-skills > div {
+    background: var(--color-bg-variant) ;
+    opacity: 50%;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experience__container-skills > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+.experience__container-skills > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
 }
+.skills__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
 .experience__details {
+    display: flex;
+    gap: 1rem;
+}
+.skills__details {
     display: flex;
     gap: 1rem;
 }
@@ -36,8 +68,10 @@
 .c__t {
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 30px;
     color: var(--color-primary);
 }
+
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
 
@@ -46,6 +80,11 @@
         grid-template-columns: 1fr;
     }
     .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__container-skills > div {
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
@@ -64,5 +103,13 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+    .experience__container-skills > div {
+        width: 100%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .skills__details {
+        font-size: small;
     }
 }
