@@ -1,0 +1,78 @@
+.service__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.service__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.service__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+.service__container > div h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.service__container > div img {
+    height: 170px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
+
+@media screen and (max-width: 1024px) {
+    .service__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .service__container > div {
+        width: 100%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .service__content {
+        padding: 1rem;
+    }
+    .service__container > div img {
+        height: 120px;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+/* ======================== MEDIA QUERIES (SMALL DEVICES) ========================= */
+
+@media screen and (max-width: 600px) {
+    .service__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .service__container > div {
+        width: 100%;
+        padding: 1rem;
+    }
+    .service__container > div h2 {
+        font-size: medium;
+        margin-bottom: 1rem;
+    }
+    .service__container > div img {
+        height: 70px;
+        width: 70px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}

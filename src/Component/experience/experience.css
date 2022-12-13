@@ -33,6 +33,11 @@
     margin-top: 6px;
     color: var(--color-primary);
 }
+.c__t {
+    text-align: center;
+    margin-top: 100px;
+    color: var(--color-primary);
+}
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
 
