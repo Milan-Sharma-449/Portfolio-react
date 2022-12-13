@@ -1,6 +1,15 @@
 import React from 'react'
 import './testimonials.css'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
 const data = [
   {
     id: 1,
@@ -28,19 +37,26 @@ const Testimonials = () => {
       <h5>Reviews</h5>
       <h2>Testimonials</h2>
 
-      <div className='container testimonials__container' >
+      <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true
+        }}
+        modules={[Pagination]}
+        className="container testimonials__container"
+      >
       {
       data.map(({id, title, designation, quote}) => {
         return (
-          <article key={id} className='testimonial'>
+          <SwiperSlide key={id} className='testimonial'>
           <h3 className='title' >{title}</h3>
           <h5 className='desig' >{designation}</h5>
           <small className='review'>{quote}</small>
-        </article>
+        </SwiperSlide>
         )
       })
     }
-      </div>
+      </Swiper>
     </section>
   )
 }
