@@ -24,6 +24,10 @@ const Footer = () => {
         <a href='https://twitter.com'><FaTwitter /></a>
         <a href='https://github.com'><FiGithub /></a>
       </div>
+
+      <div className='footer__copyright'>
+        <small>&copy; Milan Sharma. All rights reserved.</small>
+      </div>
     </Footer>
   )
 }
