@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { RiMessengerLine } from 'react-icons/ri'
-import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
