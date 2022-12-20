@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
-import {FiInstagram, FiGithub} from 'react-icons/fi'
-import {FaFacebookF, FaTwitter} from 'react-icons/fa'
+import {FiInstagram, FiGithub, FiLinkedin} from 'react-icons/fi'
+import {FaFacebookF, FaTwitter, FaStackOverflow} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -19,10 +19,12 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://facebook.com'><FaFacebookF /></a>
-        <a href='https://instagram.com'><FiInstagram /></a>
-        <a href='https://twitter.com'><FaTwitter /></a>
-        <a href='https://github.com'><FiGithub /></a>
+        <a href='https://www.facebook.com/milan.sharma.980315/'><FaFacebookF /></a>
+        <a href='https://www.instagram.com/milansharma_449/'><FiInstagram /></a>
+        <a href='https://twitter.com/milansharma449'><FaTwitter /></a>
+        <a href='https://github.com/Milan-Sharma-449'><FiGithub /></a>
+        <a href='https://www.linkedin.com/in/milan-sharma-3b9985166/'><FiLinkedin /></a>
+        <a href='https://stackoverflow.com/users/20611664/milan-sharma'><FaStackOverflow /></a>
       </div>
 
       <div className='footer__copyright'>
