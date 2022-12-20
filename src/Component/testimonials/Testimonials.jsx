@@ -16,18 +16,6 @@ const data = [
     title: 'Anubhav Dutta',
     designation: 'SDE-3 HighRadius Corporate',
     quote: 'Milan is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.'
-  },
-  {
-    id: 2,
-    title: 'Anubhav Dutta',
-    designation: 'SDE-3 HighRadius Corporate',
-    quote: 'Milan is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.'
-  },
-  {
-    id: 3,
-    title: 'Anubhav Dutta',
-    designation: 'SDE-3 HighRadius Corporate',
-    quote: 'Milan is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.'
   }
 ]
 

@@ -1,4 +1,13 @@
+section > div > h2, section > div > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+section > div > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
 .service__container {
+    width: 55%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
@@ -15,24 +24,33 @@
     border-color: var(--color-primary-variant);
     cursor: pointer;
 }
-.service__container > div h2 {
+.service__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
 .service__container > div img {
-    height: 170px;
-    width: 170px;
+    height: 100px;
+    width: 100px;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
 
+/* ======================== MEDIA QUERIES (LARGE DEVICES) ========================= */
+
+@media screen and (max-width: 1400px) {
+    .service__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
 
 @media screen and (max-width: 1024px) {
     .service__container {
+        width: 70%;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
@@ -57,8 +75,10 @@
 
 @media screen and (max-width: 600px) {
     .service__container {
+        width: 90%;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        justify-content: center;
     }
     .service__container > div {
         width: 100%;

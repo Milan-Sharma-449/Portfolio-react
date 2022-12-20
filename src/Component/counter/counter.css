@@ -1,0 +1,117 @@
+.container1 {
+    margin-left: auto;
+    position: relative;
+    gap: 0.8rem;
+}
+.row {
+    justify-content: center;
+    bottom: 2rem;
+    display: flex;
+    gap: 8.8rem;
+    border-radius: 3rem;
+}
+
+.ico-circle {
+
+    color: var(--color-primary);
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+.overlay {
+    margin-top: 5%;
+}
+
+.paralax-mf {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-image {
+    background-image: url(../../assets/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  }
+  
+  .overlay-mf {
+    background-color: rgb(33, 31, 31);
+  }
+  
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+  }
+  
+  .paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+  }
+
+.counter-box {
+    color: #fff;
+    text-align: center;
+  }
+  
+  @media (min-width: 577px) {
+    .counter-box {
+      margin-bottom: 1.8rem;
+    }
+  }
+  
+  .counter-ico {
+    margin-bottom: 1rem;
+  }
+  
+  .counter-ico .ico-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+  }
+  
+  .counter-num .counter {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+.icon {
+    margin-top: 20%;
+}
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
+
+@media screen and (max-width: 1024px) {
+  .row {
+    gap: 1.8rem;
+  } 
+}
+
+/* ======================== MEDIA QUERIES (SMALL DEVICES) ========================= */
+
+@media screen and (max-width: 600px) {
+  .row {
+    justify-content: center;
+    bottom: 2rem;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 1.2rem;
+    border-radius: 3rem;
+  }
+}

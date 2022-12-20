@@ -6,7 +6,7 @@ import {FaFacebookF, FaTwitter} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <Footer>
+    <footer>
       <a href='#' className='footer__logo'>MILAN</a>
 
       <ul className='permalinks'>
@@ -26,9 +26,9 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; Milan Sharma. All rights reserved.</small>
+        <small>&copy; All rights reserved. <a href='https://www.linkedin.com/in/milan-sharma-3b9985166/'><strong>Milan Sharma</strong></a> (2022)</small>
       </div>
-    </Footer>
+    </footer>
   )
 }
 

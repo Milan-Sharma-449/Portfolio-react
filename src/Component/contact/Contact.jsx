@@ -18,9 +18,11 @@ const Contact = () => {
     <section id='contact' >
       <h5>Get In Touch</h5>
       <h2> Contact Me</h2>
-
+      <div className='gmaps' >
+      <iframe title='maps' className="gmap_iframe" width="50%" height="400px"  src="https://maps.google.com/maps?width=600&amp;height=1200&amp;hl=en&amp;q=Mathura&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      </div>
       <div className='container contact__container'>
-        <div className='contact__options'>
+       <div className='contact__options'>
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>

@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 100%;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -7,6 +7,15 @@ header {
     text-align: center;
     height: 100;
     position: relative;
+}
+.milan {
+    transform: rotate(345deg);
+}
+.animation {
+    color: var(--color-primary);
+    padding-top: 400px;
+    display: flex;
+    justify-content: center;
 }
 
 /* ===================== CTA ====================== */
@@ -41,7 +50,7 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 20rem;
+    height: 18rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -65,7 +74,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 100%;
 
     }
 }
@@ -73,9 +82,7 @@ header {
 /* ======================== MEDIA QUERIES (SMALL DEVICES) ========================= */
 
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
+
     .header__socials, .scroll__down {
         display: none;
     }
