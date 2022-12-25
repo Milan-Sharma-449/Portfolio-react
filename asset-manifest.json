@@ -1,31 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.62402b8b.css",
-    "main.js": "/Portfolio-react/static/js/main.8461ae41.js",
+    "main.css": "/Portfolio-react/static/css/main.ef25b306.css",
+    "main.js": "/Portfolio-react/static/js/main.39a08f65.js",
     "static/media/me.png": "/Portfolio-react/static/media/me.35e483a97958b6adf07f.png",
     "static/media/portfolio.png": "/Portfolio-react/static/media/portfolio.c4aa9eea3bb439ed0220.png",
-    "static/media/code_editor.png": "/Portfolio-react/static/media/code_editor.dce914d178c3f1822055.png",
     "static/media/me-about1.png": "/Portfolio-react/static/media/me-about1.108f4640923f34159065.png",
     "static/media/counters-bg.jpg": "/Portfolio-react/static/media/counters-bg.d65cf74d47400faa6f7b.jpg",
     "static/media/project-1.jpg": "/Portfolio-react/static/media/project-1.23659d0b0e867954a8a7.jpg",
-    "static/media/sakila_project.jpg": "/Portfolio-react/static/media/sakila_project.9cef989dc7fef1c31f93.jpg",
-    "static/media/internship_hrc.webp": "/Portfolio-react/static/media/internship_hrc.a0fe437474b25c200bb2.webp",
     "static/media/chat_app.jpeg": "/Portfolio-react/static/media/chat_app.ed9254a4eaa92ad069c2.jpeg",
     "static/media/tictactoe.png": "/Portfolio-react/static/media/tictactoe.3331df9cbd8dc94064e0.png",
     "static/media/CV.pdf": "/Portfolio-react/static/media/CV.3d03ef75b3adad7200ae.pdf",
-    "static/media/Connect4.jpeg": "/Portfolio-react/static/media/Connect4.c9a1f5dfeaae023bedef.jpeg",
     "static/media/project-3.jpg": "/Portfolio-react/static/media/project-3.6ecee75124496fb9762f.jpg",
-    "static/media/temperature.jpg": "/Portfolio-react/static/media/temperature.2e236e66d04120a4a8e0.jpg",
     "index.html": "/Portfolio-react/index.html",
     "static/media/service-1.svg": "/Portfolio-react/static/media/service-1.dc2d618f2be322c95949cc1c2703bd08.svg",
     "static/media/service-4.svg": "/Portfolio-react/static/media/service-4.f89cb1a989e6aa409fe13add0f6347c9.svg",
     "static/media/service-3.svg": "/Portfolio-react/static/media/service-3.8ead5dffa8bb25e50d2073760c21d734.svg",
     "static/media/service-2.svg": "/Portfolio-react/static/media/service-2.7dcee37b5f9dccd55d9d6856c5519668.svg",
-    "main.62402b8b.css.map": "/Portfolio-react/static/css/main.62402b8b.css.map",
-    "main.8461ae41.js.map": "/Portfolio-react/static/js/main.8461ae41.js.map"
+    "main.ef25b306.css.map": "/Portfolio-react/static/css/main.ef25b306.css.map",
+    "main.39a08f65.js.map": "/Portfolio-react/static/js/main.39a08f65.js.map"
   },
   "entrypoints": [
-    "static/css/main.62402b8b.css",
-    "static/js/main.8461ae41.js"
+    "static/css/main.ef25b306.css",
+    "static/js/main.39a08f65.js"
   ]
 }
