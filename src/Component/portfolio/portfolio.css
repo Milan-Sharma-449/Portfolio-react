@@ -33,6 +33,8 @@
     margin-top: 30px;
 }
 .read__more {
+    display: flex;
+    justify-content: center;
     background: transparent;
     font-size: 3rem;
     margin-top: -40px;

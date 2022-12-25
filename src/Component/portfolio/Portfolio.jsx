@@ -79,7 +79,7 @@ const Portfolio = () => {
       }
     </div>
 	  <div className='projects' >
-		<h2>Want to see more</h2><button className='read__more' ><MdReadMore /></button>
+		<h2>Want to see more</h2><a href='https://milan-sharma-449.github.io/Projectsfolio/' className='read__more' ><MdReadMore /></a>
 	  </div>
   </section>
   )
