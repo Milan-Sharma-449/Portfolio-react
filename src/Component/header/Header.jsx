@@ -4,14 +4,17 @@ import CTA from './CTA'
 import me from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 import { TypeAnimation } from 'react-type-animation';
+import { IoIosColorPalette } from 'react-icons/io'
 
 const Header = () => {
   return (
       <header>
+        <div className='theme' >
+          <button className='theme__icon'><IoIosColorPalette /></button>
+        </div>
         <div className="container header__container">
           <h5>Hello I'm</h5>
-          <h1>Milan Sharma</h1>
-          <h5 className='text-light' >Fullstack Developer</h5>
+          <h1>MILAN SHARMA</h1>
           <CTA />
 
           <HeaderSocials />

@@ -18,6 +18,23 @@ header {
     justify-content: center;
 }
 
+/* ===================== THEME ====================== */
+
+.theme__icon {
+    display: flex;
+    margin-top: -70px;
+    margin-left: 90%;
+    background: transparent;
+    color: aqua;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.theme__icon:hover {
+    color: var(--color-white);
+    border-color: transparent;
+}
+
 /* ===================== CTA ====================== */
 
 .cta {

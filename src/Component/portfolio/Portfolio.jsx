@@ -5,11 +5,7 @@ import IMG2 from '../../assets/project-1.jpg'
 import IMG3 from '../../assets/tictactoe.png'
 import IMG5 from '../../assets/project-3.jpg'
 import IMG6 from '../../assets/portfolio.png'
-import IMG4 from '../../assets/Connect4.jpeg'
-import IMG7 from '../../assets/sakila_project.jpg'
-import IMG8 from '../../assets/internship_hrc.webp'
-import IMG10 from '../../assets/temperature.jpg'
-import IMG9 from '../../assets/code_editor.png'
+import { MdReadMore } from 'react-icons/md'
 
 
 const data = [
@@ -54,43 +50,6 @@ const data = [
 		title: "Personal Portfolio (Using BootStrap)",
 		github: 'https://github.com/Milan-Sharma-449/Portfolio',
 		demo: 'https://milansharma449portfolio.netlify.app/'
-	},
-	{
-		id: 7,
-		image: IMG4,
-		title: "Connect4",
-		github: 'https://github.com/Milan-Sharma-449/Connect4-Core-JAVA-',
-		demo: 'https://github.com/Milan-Sharma-449/Connect4-Core-JAVA-'
-	},
-	{
-		id: 8,
-		image: IMG7,
-		title: "Sakila Film Project (HighRadius Internship)",
-		github: 'https://github.com/Milan-Sharma-449/Hrc-Training-Sakila-'
-	},
-	{
-		id: 9,
-		image: IMG8,
-		title: "AI-Enabled B2B Fin-Tech Management Dashboard for Accounts Receivables (HighRadius Corporate Internship)"
-	},
-	{
-		id: 10,
-		image: IMG6,
-		title: "Personal Portfolio (Html / Css / Js)",
-		github: 'https://github.com/Milan-Sharma-449/Personal-Portfolio',
-		demo: 'https://milansharma-portfolio.000webhostapp.com/'
-	},
-	{
-		id: 11,
-		image: IMG9,
-		title: "Online Code Editor"
-	},
-	{
-		id: 12,
-		image: IMG10,
-		title: "Temperature App (Core Java)",
-		github: 'https://github.com/Milan-Sharma-449/Temperature-App',
-		demo: 'https://github.com/Milan-Sharma-449/Temperature-App'
 	}
 	]
 
@@ -119,7 +78,9 @@ const Portfolio = () => {
         })
       }
     </div>
-
+	  <div className='projects' >
+		<h2>Want to see more</h2><button className='read__more' ><MdReadMore /></button>
+	  </div>
   </section>
   )
 }

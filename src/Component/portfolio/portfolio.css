@@ -26,6 +26,25 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+.projects {
+    display: grid;
+    grid-row: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+.read__more {
+    background: transparent;
+    font-size: 3rem;
+    margin-top: -40px;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.read__more:hover {
+    color: var(--color-white);
+    border-color: transparent;
+}
+
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
 
