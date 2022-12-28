@@ -13,9 +13,7 @@ header {
 }
 .animation {
     color: var(--color-primary);
-    padding-top: 400px;
-    display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 /* ===================== THEME ====================== */
@@ -41,7 +39,7 @@ header {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    justify-content: left;
 }
 
 /* ===================== HEADER SOCIALS ====================== */
@@ -52,7 +50,8 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 5%;
+    top: 15%;
 }
 .header__socials::after {
     content: "";
@@ -85,12 +84,36 @@ header {
     font-size: 0.9rem;
 }
 
+/* ===================== BANNER ====================== */
+
+.banner__inner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.home__img {
+    opacity: 70%;
+    margin-left: -20%;
+    height: 60%;
+    width: 60%;
+}
+
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
 
 @media screen and (max-width: 1024px) {
     header {
         height: 100%;
-
+    }
+    .banner__inner {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15%;
+    }
+    .home__img {
+        margin-left: 0%;
     }
 }
 
@@ -100,5 +123,15 @@ header {
 
     .header__socials, .scroll__down {
         display: none;
+    }
+    .home__img {
+        display: none;
+    }
+    .banner__inner {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }

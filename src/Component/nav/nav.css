@@ -1,3 +1,20 @@
+section {
+    height: 100%;
+    padding-top: 0%;
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+/* ===================== NAVBAR ====================== */
+
+.permalinks__navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 2rem;
+}
+
 nav {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
@@ -30,6 +47,15 @@ nav a:hover {
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+/* ======================== MEDIA QUERIES (MEDIUM DEVICES) ========================= */
+
+@media screen and (max-width: 1024px) {
+
+    .permalinks__navbar {
+        display: none;
+    }
 }
 
 /* ======================== MEDIA QUERIES (SMALL DEVICES) ========================= */

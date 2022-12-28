@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './Component/nav/Nav'
+import NavBar from './Component/nav/NavBar'
 import Header from './Component/header/Header'
 import About from './Component/about/About'
 import Experience from './Component/experience/Experience'
@@ -13,6 +14,7 @@ import Footer from './Component/footer/Footer'
 const App = () => {
   return (
     <>
+        <NavBar />
         <Nav />
         <Header />
         <About />
