@@ -3,8 +3,9 @@ import './portfolio.css'
 import IMG1 from '../../assets/chat_app.jpeg'
 import IMG2 from '../../assets/project-1.jpg'
 import IMG3 from '../../assets/tictactoe.png'
-import IMG5 from '../../assets/project-3.jpg'
+import IMG5 from '../../assets/tMovies.png'
 import IMG6 from '../../assets/portfolio.png'
+import IMG4 from '../../assets/mstube.png'
 import { MdReadMore } from 'react-icons/md'
 
 
@@ -26,9 +27,9 @@ const data = [
 	{
 		id: 3,
 		image: IMG5,
-		title: "E-Commerce",
-		github: 'https://github.com/Milan-Sharma-449/E-Store-Based-on-php-',
-		demo: 'https://github.com/Milan-Sharma-449/E-Store-Based-on-php-'
+		title: "tMovies",
+		github: 'https://github.com/Milan-Sharma-449/tMovies',
+		demo: 'https://milan-sharma-449.github.io/tMovies/'
 	},
 	{
 		id: 4,
@@ -39,10 +40,10 @@ const data = [
 	},
 	{
 		id: 5,
-		image: IMG5,
-		title: "LifeStyle Store",
-		github: 'https://github.com/Milan-Sharma-449/LifeStyle-Store-Web-Project-',
-		demo: 'https://github.com/Milan-Sharma-449/LifeStyle-Store-Web-Project-'
+		image: IMG4,
+		title: "MSTube",
+		github: 'https://github.com/Milan-Sharma-449/MSTube',
+		demo: 'https://milan-sharma-449.github.io/MSTube/'
 	},
 	{
 		id: 6,
