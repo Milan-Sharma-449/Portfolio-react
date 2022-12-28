@@ -42,6 +42,7 @@ const Contact = () => {
             <a href='https://api.whatsapp.com/send?phone=917060873017' target='_blank' rel="noreferrer" >Send a message</a>
           </article>
         </div>
+        
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
