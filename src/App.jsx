@@ -10,6 +10,7 @@ import Portfolio from './Component/portfolio/Portfolio'
 import Testimonials from './Component/testimonials/Testimonials'
 import Contact from './Component/contact/Contact'
 import Footer from './Component/footer/Footer'
+import ScrollButton from './Component/scrollbtn/ScrollButton'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <NavBar />
         <Nav />
         <Header />
+        <ScrollButton />
         <About />
         <Experience />
         <Services />

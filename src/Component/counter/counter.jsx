@@ -40,7 +40,7 @@ const Counter = () => {
                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
                     <div>
                         <h4>
-                        {counterOn && <CountUp start={0} end={10000} duration={4} delay={0} />}
+                        {counterOn && <CountUp start={0} end={30000} duration={4} delay={0} />}
                         +
                         </h4>
                     </div>
