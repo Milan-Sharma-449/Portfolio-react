@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-react/static/css/main.f77c08cf.css",
-    "main.js": "/Portfolio-react/static/js/main.d489dc0d.js",
+    "main.js": "/Portfolio-react/static/js/main.a308317c.js",
     "static/media/tMovies.png": "/Portfolio-react/static/media/tMovies.ed0e453001cbd360fefc.png",
     "static/media/mstube.png": "/Portfolio-react/static/media/mstube.0f232945a0aaa81625b2.png",
     "static/media/portfolio.png": "/Portfolio-react/static/media/portfolio.c4aa9eea3bb439ed0220.png",
@@ -10,7 +10,7 @@
     "static/media/project-1.jpg": "/Portfolio-react/static/media/project-1.23659d0b0e867954a8a7.jpg",
     "static/media/chat_app.jpeg": "/Portfolio-react/static/media/chat_app.ed9254a4eaa92ad069c2.jpeg",
     "static/media/tictactoe.png": "/Portfolio-react/static/media/tictactoe.3331df9cbd8dc94064e0.png",
-    "static/media/CV.pdf": "/Portfolio-react/static/media/CV.3d03ef75b3adad7200ae.pdf",
+    "static/media/CV.pdf": "/Portfolio-react/static/media/CV.a30d6775a030986af6b4.pdf",
     "static/media/home-right.png": "/Portfolio-react/static/media/home-right.b68bdeada83bcb8b8f98.png",
     "index.html": "/Portfolio-react/index.html",
     "static/media/service-1.svg": "/Portfolio-react/static/media/service-1.dc2d618f2be322c95949cc1c2703bd08.svg",
@@ -18,10 +18,10 @@
     "static/media/service-3.svg": "/Portfolio-react/static/media/service-3.8ead5dffa8bb25e50d2073760c21d734.svg",
     "static/media/service-2.svg": "/Portfolio-react/static/media/service-2.7dcee37b5f9dccd55d9d6856c5519668.svg",
     "main.f77c08cf.css.map": "/Portfolio-react/static/css/main.f77c08cf.css.map",
-    "main.d489dc0d.js.map": "/Portfolio-react/static/js/main.d489dc0d.js.map"
+    "main.a308317c.js.map": "/Portfolio-react/static/js/main.a308317c.js.map"
   },
   "entrypoints": [
     "static/css/main.f77c08cf.css",
-    "static/js/main.d489dc0d.js"
+    "static/js/main.a308317c.js"
   ]
 }
